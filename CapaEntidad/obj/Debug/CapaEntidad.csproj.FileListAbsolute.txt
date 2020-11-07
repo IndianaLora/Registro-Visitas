@@ -1,0 +1,13 @@
+C:\Users\indiana\Downloads\DeveloperLoading\Rompiendo\c#\Rusta\CapaEntidad\bin\Debug\CapaEntidad.exe.config
+C:\Users\indiana\Downloads\DeveloperLoading\Rompiendo\c#\Rusta\CapaEntidad\bin\Debug\CapaEntidad.exe
+C:\Users\indiana\Downloads\DeveloperLoading\Rompiendo\c#\Rusta\CapaEntidad\bin\Debug\CapaEntidad.pdb
+C:\Users\indiana\Downloads\DeveloperLoading\Rompiendo\c#\Rusta\CapaEntidad\obj\Debug\CapaEntidad.csprojAssemblyReference.cache
+C:\Users\indiana\Downloads\DeveloperLoading\Rompiendo\c#\Rusta\CapaEntidad\obj\Debug\CapaEntidad.Form1.resources
+C:\Users\indiana\Downloads\DeveloperLoading\Rompiendo\c#\Rusta\CapaEntidad\obj\Debug\CapaEntidad.Properties.Resources.resources
+C:\Users\indiana\Downloads\DeveloperLoading\Rompiendo\c#\Rusta\CapaEntidad\obj\Debug\CapaEntidad.csproj.GenerateResource.cache
+C:\Users\indiana\Downloads\DeveloperLoading\Rompiendo\c#\Rusta\CapaEntidad\obj\Debug\CapaEntidad.csproj.CoreCompileInputs.cache
+C:\Users\indiana\Downloads\DeveloperLoading\Rompiendo\c#\Rusta\CapaEntidad\obj\Debug\CapaEntidad.exe
+C:\Users\indiana\Downloads\DeveloperLoading\Rompiendo\c#\Rusta\CapaEntidad\obj\Debug\CapaEntidad.pdb
+C:\Users\indiana\Downloads\DeveloperLoading\Rompiendo\c#\AppClase\CapaEntidad\obj\Debug\CapaEntidad.csprojAssemblyReference.cache
+C:\Users\indiana\Downloads\DeveloperLoading\Rompiendo\c#\AppClase\CapaEntidad\obj\Debug\CapaEntidad.exe
+C:\Users\indiana\Downloads\DeveloperLoading\Rompiendo\c#\AppClase\CapaEntidad\obj\Debug\CapaEntidad.pdb

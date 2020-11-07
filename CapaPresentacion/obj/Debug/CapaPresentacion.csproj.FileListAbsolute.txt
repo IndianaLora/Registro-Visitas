@@ -1,0 +1,17 @@
+C:\Users\indiana\Downloads\DeveloperLoading\Rompiendo\c#\AppClase\CapaPresentacion\bin\Debug\CapaPresentacion.exe.config
+C:\Users\indiana\Downloads\DeveloperLoading\Rompiendo\c#\AppClase\CapaPresentacion\bin\Debug\CapaPresentacion.exe
+C:\Users\indiana\Downloads\DeveloperLoading\Rompiendo\c#\AppClase\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+C:\Users\indiana\Downloads\DeveloperLoading\Rompiendo\c#\AppClase\CapaPresentacion\bin\Debug\CapaDatos.exe
+C:\Users\indiana\Downloads\DeveloperLoading\Rompiendo\c#\AppClase\CapaPresentacion\bin\Debug\CapaNegocios.exe
+C:\Users\indiana\Downloads\DeveloperLoading\Rompiendo\c#\AppClase\CapaPresentacion\bin\Debug\CapaDatos.pdb
+C:\Users\indiana\Downloads\DeveloperLoading\Rompiendo\c#\AppClase\CapaPresentacion\bin\Debug\CapaDatos.exe.config
+C:\Users\indiana\Downloads\DeveloperLoading\Rompiendo\c#\AppClase\CapaPresentacion\bin\Debug\CapaNegocios.pdb
+C:\Users\indiana\Downloads\DeveloperLoading\Rompiendo\c#\AppClase\CapaPresentacion\bin\Debug\CapaNegocios.exe.config
+C:\Users\indiana\Downloads\DeveloperLoading\Rompiendo\c#\AppClase\CapaPresentacion\obj\Debug\CapaPresentacion.csprojAssemblyReference.cache
+C:\Users\indiana\Downloads\DeveloperLoading\Rompiendo\c#\AppClase\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\Users\indiana\Downloads\DeveloperLoading\Rompiendo\c#\AppClase\CapaPresentacion\obj\Debug\CapaPresentacion.P_Empleado.resources
+C:\Users\indiana\Downloads\DeveloperLoading\Rompiendo\c#\AppClase\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache
+C:\Users\indiana\Downloads\DeveloperLoading\Rompiendo\c#\AppClase\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
+C:\Users\indiana\Downloads\DeveloperLoading\Rompiendo\c#\AppClase\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CopyComplete
+C:\Users\indiana\Downloads\DeveloperLoading\Rompiendo\c#\AppClase\CapaPresentacion\obj\Debug\CapaPresentacion.exe
+C:\Users\indiana\Downloads\DeveloperLoading\Rompiendo\c#\AppClase\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
