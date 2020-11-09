@@ -52,6 +52,19 @@ namespace CapaPresentacion
             MostrarListado();
         }
 
-       
+        private void btnGuardar_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                n_Empleado.insertarEmpleado(txtCedula.Text, txtNombre.Text, txtApellido.Text, txtRuta.Text, txtFecha.Text);
+                MessageBox.Show("Guardado");
+                MostrarListado();
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show("No guardado" + ex);
+            }
+            
+        }
     }
 }

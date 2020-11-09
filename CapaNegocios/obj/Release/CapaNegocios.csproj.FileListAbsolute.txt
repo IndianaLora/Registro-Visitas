@@ -1,0 +1,5 @@
+C:\Users\indiana\Downloads\DeveloperLoading\Rompiendo\c#\AppClase\CapaNegocios\obj\Release\CapaNegocios.csprojAssemblyReference.cache
+C:\Users\indiana\Downloads\DeveloperLoading\Rompiendo\c#\AppClase\CapaNegocios\obj\Release\CapaNegocios.Form1.resources
+C:\Users\indiana\Downloads\DeveloperLoading\Rompiendo\c#\AppClase\CapaNegocios\obj\Release\CapaNegocios.Properties.Resources.resources
+C:\Users\indiana\Downloads\DeveloperLoading\Rompiendo\c#\AppClase\CapaNegocios\obj\Release\CapaNegocios.csproj.GenerateResource.cache
+C:\Users\indiana\Downloads\DeveloperLoading\Rompiendo\c#\AppClase\CapaNegocios\obj\Release\CapaNegocios.csproj.CoreCompileInputs.cache

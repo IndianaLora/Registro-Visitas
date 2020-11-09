@@ -21,7 +21,8 @@ namespace CapaDatos
         {
 
             comando.Connection = conexion.AbrirConexion();
-            comando.CommandText = "Select * from Empleado";
+            comando.CommandText = "MostrarEmpleado";
+            comando.CommandType = CommandType.StoredProcedure;
             LeerConsulta = comando.ExecuteReader();
             Tabla.Load(LeerConsulta);
             conexion.CerrarConexion();
@@ -29,6 +30,12 @@ namespace CapaDatos
             return Tabla;
 
         }
-
+        public void Insertar(int cedula,string nombre,string apellido,string ruta,string disponibilidad )
+        {
+            comando.Connection = conexion.AbrirConexion();
+            comando.CommandText =( $"Insert into Choferes (cedula,nombre,apellido,ruta,disponibilidad) values({cedula},'{nombre}','{apellido}','{ruta}','{disponibilidad}')");
+            comando.CommandType = CommandType.Text;
+            comando.ExecuteNonQuery();
+        }
     }
 }

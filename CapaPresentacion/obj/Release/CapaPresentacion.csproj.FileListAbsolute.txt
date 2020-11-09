@@ -1,0 +1,4 @@
+C:\Users\indiana\Downloads\DeveloperLoading\Rompiendo\c#\AppClase\CapaPresentacion\obj\Release\CapaPresentacion.Properties.Resources.resources
+C:\Users\indiana\Downloads\DeveloperLoading\Rompiendo\c#\AppClase\CapaPresentacion\obj\Release\CapaPresentacion.P_Empleado.resources
+C:\Users\indiana\Downloads\DeveloperLoading\Rompiendo\c#\AppClase\CapaPresentacion\obj\Release\CapaPresentacion.csproj.GenerateResource.cache
+C:\Users\indiana\Downloads\DeveloperLoading\Rompiendo\c#\AppClase\CapaPresentacion\obj\Release\CapaPresentacion.csproj.CoreCompileInputs.cache

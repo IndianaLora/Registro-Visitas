@@ -1,0 +1,4 @@
+C:\Users\indiana\Downloads\DeveloperLoading\Rompiendo\c#\AppClase\CapaDatos\obj\Release\CapaDatos.csprojAssemblyReference.cache
+C:\Users\indiana\Downloads\DeveloperLoading\Rompiendo\c#\AppClase\CapaDatos\obj\Release\CapaDatos.Properties.Resources.resources
+C:\Users\indiana\Downloads\DeveloperLoading\Rompiendo\c#\AppClase\CapaDatos\obj\Release\CapaDatos.csproj.GenerateResource.cache
+C:\Users\indiana\Downloads\DeveloperLoading\Rompiendo\c#\AppClase\CapaDatos\obj\Release\CapaDatos.csproj.CoreCompileInputs.cache

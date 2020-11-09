@@ -19,5 +19,9 @@ namespace CapaNegocio
             Tabla = d_Empleado.MostrarEmpleado();
             return Tabla;
         }
+        public void insertarEmpleado(string cedula, string nombre, string apellido, string ruta, string disponibilidad)
+        {
+            d_Empleado.Insertar(Convert.ToInt32(cedula), nombre, apellido, ruta, disponibilidad);
+        }
     }
 }
