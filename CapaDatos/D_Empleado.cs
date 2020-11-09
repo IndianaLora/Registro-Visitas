@@ -37,5 +37,17 @@ namespace CapaDatos
             comando.CommandType = CommandType.Text;
             comando.ExecuteNonQuery();
         }
+        public DataTable MostrarRutas()
+        {
+            comando.Connection = conexion.AbrirConexion();
+            comando.CommandText = "MostarRutaz";
+            comando.CommandType = CommandType.StoredProcedure;
+            LeerConsulta = comando.ExecuteReader();
+            Tabla.Load(LeerConsulta);
+            conexion.CerrarConexion();
+
+            return Tabla;
+        }
     }
+    
 }

@@ -15,3 +15,5 @@ C:\Users\indiana\Downloads\DeveloperLoading\Rompiendo\c#\AppClase\CapaPresentaci
 C:\Users\indiana\Downloads\DeveloperLoading\Rompiendo\c#\AppClase\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CopyComplete
 C:\Users\indiana\Downloads\DeveloperLoading\Rompiendo\c#\AppClase\CapaPresentacion\obj\Debug\CapaPresentacion.exe
 C:\Users\indiana\Downloads\DeveloperLoading\Rompiendo\c#\AppClase\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+C:\Users\indiana\Downloads\DeveloperLoading\Rompiendo\c#\AppClase\CapaPresentacion\obj\Debug\CapaPresentacion.Menu.resources
+C:\Users\indiana\Downloads\DeveloperLoading\Rompiendo\c#\AppClase\CapaPresentacion\obj\Debug\CapaPresentacion.ControlDRutas.resources
