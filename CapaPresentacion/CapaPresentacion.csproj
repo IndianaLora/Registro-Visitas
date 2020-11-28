@@ -47,14 +47,32 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="P_Empleado.cs">
+    <Compile Include="ControlVisitas.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="P_Empleado.Designer.cs">
-      <DependentUpon>P_Empleado.cs</DependentUpon>
+    <Compile Include="ControlVisitas.Designer.cs">
+      <DependentUpon>ControlVisitas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MostrarVisitas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MostrarVisitas.Designer.cs">
+      <DependentUpon>MostrarVisitas.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ControlVisitas.resx">
+      <DependentUpon>ControlVisitas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -63,9 +81,10 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="P_Empleado.resx">
-      <DependentUpon>P_Empleado.cs</DependentUpon>
+    <EmbeddedResource Include="MostrarVisitas.resx">
+      <DependentUpon>MostrarVisitas.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -89,6 +108,66 @@
       <Project>{02baaf8a-4b8f-4434-a7f6-eac712adf9cb}</Project>
       <Name>CapaNegocios</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2020-11-27 at 11.39.03 AM.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cerrarIcon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cerrarIcon2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\66630585-x-icono-de-cierre-x-botón-cerrar-el-sitio-web-en-el-fondo-blanco-.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cerrarIcon1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UserIcon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\passwordIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\passwordIcon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\66630585-x-icono-de-cierre-x-botón-cerrar-el-sitio-web-en-el-fondo-blanco-1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2020-11-27 at 2.57.55 PM.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot %28185%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6938878a73cecbd455d4d867a2489a6148e3370c.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\35894288_10155838323598406_7637234249300443136_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\itla-logo-full-2020.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot %28185%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\itla-logo-full-20201.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\66630585-x-icono-de-cierre-x-botón-cerrar-el-sitio-web-en-el-fondo-blanco-2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %283%29.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

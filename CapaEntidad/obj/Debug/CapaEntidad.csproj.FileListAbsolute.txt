@@ -11,3 +11,9 @@ C:\Users\indiana\Downloads\DeveloperLoading\Rompiendo\c#\Rusta\CapaEntidad\obj\D
 C:\Users\indiana\Downloads\DeveloperLoading\Rompiendo\c#\AppClase\CapaEntidad\obj\Debug\CapaEntidad.csprojAssemblyReference.cache
 C:\Users\indiana\Downloads\DeveloperLoading\Rompiendo\c#\AppClase\CapaEntidad\obj\Debug\CapaEntidad.exe
 C:\Users\indiana\Downloads\DeveloperLoading\Rompiendo\c#\AppClase\CapaEntidad\obj\Debug\CapaEntidad.pdb
+C:\Users\indiana\Downloads\DeveloperLoading\Rompiendo\AppClase\CapaEntidad\obj\Debug\CapaEntidad.csprojAssemblyReference.cache
+C:\Users\indiana\Downloads\DeveloperLoading\Rompiendo\AppClase\CapaEntidad\obj\Debug\CapaEntidad.exe
+C:\Users\indiana\Downloads\DeveloperLoading\Rompiendo\AppClase\CapaEntidad\obj\Debug\CapaEntidad.pdb
+C:\Users\indiana\Downloads\DeveloperLoading\Rompiendo\ControlVisitas\CapaEntidad\obj\Debug\CapaEntidad.csprojAssemblyReference.cache
+C:\Users\indiana\Downloads\DeveloperLoading\Rompiendo\ControlVisitas\CapaEntidad\obj\Debug\CapaEntidad.exe
+C:\Users\indiana\Downloads\DeveloperLoading\Rompiendo\ControlVisitas\CapaEntidad\obj\Debug\CapaEntidad.pdb

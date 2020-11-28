@@ -2,3 +2,6 @@ C:\Users\indiana\Downloads\DeveloperLoading\Rompiendo\c#\AppClase\CapaPresentaci
 C:\Users\indiana\Downloads\DeveloperLoading\Rompiendo\c#\AppClase\CapaPresentacion\obj\Release\CapaPresentacion.P_Empleado.resources
 C:\Users\indiana\Downloads\DeveloperLoading\Rompiendo\c#\AppClase\CapaPresentacion\obj\Release\CapaPresentacion.csproj.GenerateResource.cache
 C:\Users\indiana\Downloads\DeveloperLoading\Rompiendo\c#\AppClase\CapaPresentacion\obj\Release\CapaPresentacion.csproj.CoreCompileInputs.cache
+C:\Users\indiana\Downloads\DeveloperLoading\Rompiendo\c#\AppClase\CapaPresentacion\obj\Release\CapaPresentacion.csprojAssemblyReference.cache
+C:\Users\indiana\Downloads\DeveloperLoading\Rompiendo\c#\AppClase\CapaPresentacion\obj\Release\CapaPresentacion.Menu.resources
+C:\Users\indiana\Downloads\DeveloperLoading\Rompiendo\c#\AppClase\CapaPresentacion\obj\Release\CapaPresentacion.ControlDRutas.resources

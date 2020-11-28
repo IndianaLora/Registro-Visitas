@@ -15,11 +15,11 @@ using CapaNegocio;
 
 namespace CapaPresentacion
 {
-    public partial class P_Empleado : Form
+    public partial class MostrarVisitas : Form
     {
         N_Empleado n_Empleado = new N_Empleado();
         D_Empleado obj = new D_Empleado();
-        public P_Empleado()
+        public MostrarVisitas()
         {
             SqlConnection cn =
                    new SqlConnection(ConfigurationManager.ConnectionStrings["conexion"].ConnectionString);
@@ -65,6 +65,16 @@ namespace CapaPresentacion
                 MessageBox.Show("No guardado" + ex);
             }
             
+        }
+
+        private void cedula_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+           
         }
     }
 }
