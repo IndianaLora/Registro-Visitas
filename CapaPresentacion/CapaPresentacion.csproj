@@ -50,9 +50,7 @@
 <<<<<<< HEAD
     <Compile Include="ControlVisitas.cs">
 =======
-    <Compile Include="ControlDRutas.cs">
-      <SubType>Form</SubType>
-    </Compile>
+ 
     <Compile Include="ControlDRutas.Designer.cs">
       <DependentUpon>ControlDRutas.cs</DependentUpon>
     </Compile>
