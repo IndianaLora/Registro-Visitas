@@ -47,7 +47,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Compile Include="ControlVisitas.cs">
+=======
+    <Compile Include="ControlDRutas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlDRutas.Designer.cs">
+      <DependentUpon>ControlDRutas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="P_Empleado.cs">
+>>>>>>> 88e2453b41dd263e5ff56aea37dc35f2a2e1ca42
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ControlVisitas.Designer.cs">
@@ -67,11 +83,19 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+<<<<<<< HEAD
     <EmbeddedResource Include="ControlVisitas.resx">
       <DependentUpon>ControlVisitas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
+=======
+    <EmbeddedResource Include="ControlDRutas.resx">
+      <DependentUpon>ControlDRutas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
+>>>>>>> 88e2453b41dd263e5ff56aea37dc35f2a2e1ca42
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
