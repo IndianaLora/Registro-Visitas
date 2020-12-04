@@ -26,6 +26,12 @@ namespace CapaNegocio
             Tabla = d_Empleado.MostrarEdificio();
             return Tabla;
         }
+        public DataTable MostrarUsuarion()
+        {
+            DataTable Tabla = new DataTable();
+            Tabla = d_Empleado.MostrarUsuarios();
+            return Tabla;
+        }
         public DataTable MostrarComboBox()
         {
             DataTable Tabla = new DataTable();
@@ -40,6 +46,18 @@ namespace CapaNegocio
         {
             d_Empleado.InsertarEdificio(edificio, aula);
         }
+        public void insertarUsuario(string nombre, string apellido,string usuario, string tipoUsuario)
+        {
+            d_Empleado.InsertarUsuario(nombre, apellido, usuario,tipoUsuario);
+        }
 
+        public void editarE(string edificio)
+        {
+            d_Empleado.Editar(edificio);
+        }
+        public void Borrar(string edificio)
+        {
+            d_Empleado.delete(edificio);
+        }
     }
 }

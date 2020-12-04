@@ -22,12 +22,12 @@ namespace CapaPresentacion
        
         private void pictureBox4_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            this.Close();
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            MostrarVisitantes();
+           
         }
         private void button2_Click(object sender, EventArgs e)
         {
@@ -46,12 +46,15 @@ namespace CapaPresentacion
         }
         public void MostrarVisitantes()
         {
-            dataGridView1.DataSource = n_Empleado.MostrarVisita();
+            N_Empleado cn_Empleado = new N_Empleado();
+            dataGridView1.DataSource = cn_Empleado.MostrarVisita();
         }
 
         private void btnAgregar_Click(object sender, EventArgs e)
         {
             try {
+                textBox1.Text = monthCalendar1.SelectionStart.Day.ToString() + "/"
+                +monthCalendar1.SelectionStart.Month.ToString() + "/" + monthCalendar1.SelectionStart.Year.ToString();
             n_Empleado.insertarVisita(txtNombre.Text, txtApellido.Text, cboCarrera.Text, cboEdificio.Text, cboAula.Text);
             MessageBox.Show("Visita agregada");
             MostrarVisitantes();
@@ -60,6 +63,11 @@ namespace CapaPresentacion
             {
                 MessageBox.Show("No se pudo guardar" + ex);
             }
+        }
+
+        private void monthCalendar1_DateChanged(object sender, DateRangeEventArgs e)
+        {
+
         }
     }
 }

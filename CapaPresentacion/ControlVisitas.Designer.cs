@@ -47,6 +47,8 @@
             this.cboAula = new System.Windows.Forms.ComboBox();
             this.cboEdificio = new System.Windows.Forms.ComboBox();
             this.cboCarrera = new System.Windows.Forms.ComboBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.panel1.SuspendLayout();
@@ -161,6 +163,7 @@
             this.monthCalendar1.Location = new System.Drawing.Point(918, 55);
             this.monthCalendar1.Name = "monthCalendar1";
             this.monthCalendar1.TabIndex = 8;
+            this.monthCalendar1.DateChanged += new System.Windows.Forms.DateRangeEventHandler(this.monthCalendar1_DateChanged);
             // 
             // label2
             // 
@@ -244,12 +247,31 @@
             this.cboCarrera.Size = new System.Drawing.Size(121, 24);
             this.cboCarrera.TabIndex = 21;
             // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label7.Location = new System.Drawing.Point(675, 571);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(118, 17);
+            this.label7.TabIndex = 22;
+            this.label7.Text = "Fecha de la visita";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(799, 568);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(110, 22);
+            this.textBox1.TabIndex = 23;
+            // 
             // ControlVisitas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Teal;
             this.ClientSize = new System.Drawing.Size(1277, 610);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.label7);
             this.Controls.Add(this.cboCarrera);
             this.Controls.Add(this.cboEdificio);
             this.Controls.Add(this.cboAula);
@@ -301,5 +323,7 @@
         private System.Windows.Forms.ComboBox cboAula;
         private System.Windows.Forms.ComboBox cboEdificio;
         private System.Windows.Forms.ComboBox cboCarrera;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
