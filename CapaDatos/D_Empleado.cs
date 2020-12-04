@@ -4,9 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Configuration;
 using System.Threading.Tasks;
-using System.Configuration;
-using System.Data.SqlClient;
 using System.Data;
+using System.Data.SqlClient;
 using CapaEntidad;
 
 namespace CapaDatos
@@ -14,15 +13,16 @@ namespace CapaDatos
     public class D_Empleado
     {
         public Conexion conexion = new Conexion();
-        SqlDataReader LeerConsulta;
-        DataTable Tabla = new DataTable();
-        SqlCommand comando = new SqlCommand();
-        public DataTable MostrarEmpleado()
-        {
+        public SqlDataReader LeerConsulta;
+        public SqlCommand comando = new SqlCommand();
+        public DataTable Tabla = new DataTable();
+        
 
+        public DataTable MostrarVisitante()
+        {
+            
             comando.Connection = conexion.AbrirConexion();
-            comando.CommandText = "MostrarEmpleado";
-            comando.CommandType = CommandType.StoredProcedure;
+            comando.CommandText = "Select * from visitante";
             LeerConsulta = comando.ExecuteReader();
             Tabla.Load(LeerConsulta);
             conexion.CerrarConexion();
@@ -30,24 +30,40 @@ namespace CapaDatos
             return Tabla;
 
         }
-        public void Insertar(int cedula,string nombre,string apellido,string ruta,string disponibilidad )
+        public DataTable MostrarEdificio()
         {
             comando.Connection = conexion.AbrirConexion();
-            comando.CommandText =( $"Insert into Choferes (cedula,nombre,apellido,ruta,disponibilidad) values({cedula},'{nombre}','{apellido}','{ruta}','{disponibilidad}')");
+            comando.CommandText= "Select * from edificios";
+            LeerConsulta = comando.ExecuteReader();
+            Tabla.Load(LeerConsulta);
+            conexion.CerrarConexion();
+            return Tabla;
+        }
+        public DataTable cargarCombo()
+        {
+            comando.Connection = conexion.AbrirConexion();
+            comando.CommandText = "Select * from edificios";
+            LeerConsulta = comando.ExecuteReader();
+            Tabla.Load(LeerConsulta);
+            conexion.CerrarConexion();
+            return Tabla;
+                ;
+        }
+        public void InsertarEdificio(string edificio,string aula)
+        {
+            comando.Connection = conexion.AbrirConexion();
+            comando.CommandText = ($"Insert into edificios (edificio,aula) values('{edificio}','{aula}')");
             comando.CommandType = CommandType.Text;
             comando.ExecuteNonQuery();
         }
-        public DataTable MostrarRutas()
+        public void Insertar(string nombre,string apellido,string carrera,string edificio,string aula )
         {
             comando.Connection = conexion.AbrirConexion();
-            comando.CommandText = "MostarRutaz";
-            comando.CommandType = CommandType.StoredProcedure;
-            LeerConsulta = comando.ExecuteReader();
-            Tabla.Load(LeerConsulta);
-            conexion.CerrarConexion();
-
-            return Tabla;
+            comando.CommandText =( $"Insert into visitante (nombre,apellido,carrera,edificio,aula) values('{nombre}','{apellido}','{carrera}','{edificio}','{aula}')");
+            comando.CommandType = CommandType.Text;
+            comando.ExecuteNonQuery();
         }
+     
     }
     
 }

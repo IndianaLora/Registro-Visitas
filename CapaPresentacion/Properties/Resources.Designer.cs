@@ -63,9 +63,9 @@ namespace CapaPresentacion.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _35894288_10155838323598406_7637234249300443136_n {
+        internal static System.Drawing.Bitmap _620_12_login_icon_iconbunny {
             get {
-                object obj = ResourceManager.GetObject("35894288_10155838323598406_7637234249300443136_n", resourceCulture);
+                object obj = ResourceManager.GetObject("620.12-login-icon-iconbunny", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,79 +83,9 @@ namespace CapaPresentacion.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _66630585_x_icono_de_cierre_x_botón_cerrar_el_sitio_web_en_el_fondo_blanco_1 {
+        internal static System.Drawing.Bitmap download {
             get {
-                object obj = ResourceManager.GetObject("66630585-x-icono-de-cierre-x-botón-cerrar-el-sitio-web-en-el-fondo-blanco-1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap _66630585_x_icono_de_cierre_x_botón_cerrar_el_sitio_web_en_el_fondo_blanco_2 {
-            get {
-                object obj = ResourceManager.GetObject("66630585-x-icono-de-cierre-x-botón-cerrar-el-sitio-web-en-el-fondo-blanco-2", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap _6938878a73cecbd455d4d867a2489a6148e3370c {
-            get {
-                object obj = ResourceManager.GetObject("6938878a73cecbd455d4d867a2489a6148e3370c", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap cerrarIcon {
-            get {
-                object obj = ResourceManager.GetObject("cerrarIcon", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap cerrarIcon1 {
-            get {
-                object obj = ResourceManager.GetObject("cerrarIcon1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap cerrarIcon2 {
-            get {
-                object obj = ResourceManager.GetObject("cerrarIcon2", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap download__1_ {
-            get {
-                object obj = ResourceManager.GetObject("download (1)", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap download__2_ {
-            get {
-                object obj = ResourceManager.GetObject("download (2)", resourceCulture);
+                object obj = ResourceManager.GetObject("download", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -173,9 +103,9 @@ namespace CapaPresentacion.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap itla_logo_full_2020 {
+        internal static System.Drawing.Bitmap download__3_1 {
             get {
-                object obj = ResourceManager.GetObject("itla-logo-full-2020", resourceCulture);
+                object obj = ResourceManager.GetObject("download (3)1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -183,9 +113,9 @@ namespace CapaPresentacion.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap itla_logo_full_20201 {
+        internal static System.Drawing.Bitmap Lock_Icon_FlatGreen {
             get {
-                object obj = ResourceManager.GetObject("itla-logo-full-20201", resourceCulture);
+                object obj = ResourceManager.GetObject("Lock_Icon_FlatGreen", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -223,9 +153,9 @@ namespace CapaPresentacion.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Screenshot__185_1 {
+        internal static System.Drawing.Bitmap system_users_icon {
             get {
-                object obj = ResourceManager.GetObject("Screenshot (185)1", resourceCulture);
+                object obj = ResourceManager.GetObject("system-users-icon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -263,9 +193,9 @@ namespace CapaPresentacion.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap WhatsApp_Image_2020_11_27_at_2_57_55_PM {
+        internal static System.Drawing.Bitmap WhatsApp_Image_2020_11_27_at_11_48_52_AM {
             get {
-                object obj = ResourceManager.GetObject("WhatsApp Image 2020-11-27 at 2.57.55 PM", resourceCulture);
+                object obj = ResourceManager.GetObject("WhatsApp Image 2020-11-27 at 11.48.52 AM", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

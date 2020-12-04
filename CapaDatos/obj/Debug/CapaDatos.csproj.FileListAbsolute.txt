@@ -24,3 +24,16 @@ C:\Users\indiana\Downloads\DeveloperLoading\Rompiendo\c#\AppClase\CapaDatos\bin\
 C:\Users\indiana\Downloads\DeveloperLoading\Rompiendo\c#\AppClase\CapaDatos\bin\Debug\CapaEntidad.pdb
 C:\Users\indiana\Downloads\DeveloperLoading\Rompiendo\c#\AppClase\CapaDatos\bin\Debug\CapaEntidad.exe.config
 C:\Users\indiana\Downloads\DeveloperLoading\Rompiendo\c#\AppClase\CapaDatos\obj\Debug\CapaDatos.csproj.CopyComplete
+C:\Users\indiana\Downloads\DeveloperLoading\Rompiendo\ControlVisitas\CapaDatos\obj\Debug\CapaDatos.csprojAssemblyReference.cache
+C:\Users\indiana\Downloads\DeveloperLoading\Rompiendo\ControlVisitas\CapaDatos\obj\Debug\CapaDatos.Properties.Resources.resources
+C:\Users\indiana\Downloads\DeveloperLoading\Rompiendo\ControlVisitas\CapaDatos\obj\Debug\CapaDatos.csproj.GenerateResource.cache
+C:\Users\indiana\Downloads\DeveloperLoading\Rompiendo\ControlVisitas\CapaDatos\obj\Debug\CapaDatos.csproj.CoreCompileInputs.cache
+C:\Users\indiana\Downloads\DeveloperLoading\Rompiendo\ControlVisitas\CapaDatos\obj\Debug\CapaDatos.exe
+C:\Users\indiana\Downloads\DeveloperLoading\Rompiendo\ControlVisitas\CapaDatos\obj\Debug\CapaDatos.pdb
+C:\Users\indiana\Downloads\DeveloperLoading\Rompiendo\ControlVisitas\CapaDatos\bin\Debug\CapaDatos.exe.config
+C:\Users\indiana\Downloads\DeveloperLoading\Rompiendo\ControlVisitas\CapaDatos\bin\Debug\CapaDatos.exe
+C:\Users\indiana\Downloads\DeveloperLoading\Rompiendo\ControlVisitas\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\indiana\Downloads\DeveloperLoading\Rompiendo\ControlVisitas\CapaDatos\bin\Debug\CapaEntidad.exe
+C:\Users\indiana\Downloads\DeveloperLoading\Rompiendo\ControlVisitas\CapaDatos\bin\Debug\CapaEntidad.pdb
+C:\Users\indiana\Downloads\DeveloperLoading\Rompiendo\ControlVisitas\CapaDatos\bin\Debug\CapaEntidad.exe.config
+C:\Users\indiana\Downloads\DeveloperLoading\Rompiendo\ControlVisitas\CapaDatos\obj\Debug\CapaDatos.csproj.CopyComplete

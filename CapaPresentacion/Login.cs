@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -17,44 +18,24 @@ namespace CapaPresentacion
             InitializeComponent();
         }
 
-  
-
-
-   
-        private void cerrarFormulario_Click(object sender, EventArgs e)
+        private void pictureBox4_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
-            ControlVisitas visitax = new ControlVisitas();
-            visitax.ShowDialog();
-        }
-
-        private void textBox3_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void Login_Load(object sender, EventArgs e)
-        {
+            ControlVisitas cv = new ControlVisitas();
+            cv.ShowDialog();
 
         }
 
-        private void pictureBox3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void panel4_Paint(object sender, PaintEventArgs e)
+        private void pictureBox2_Click(object sender, EventArgs e)
         {
 
         }
     }
-}
+
+     
+    }
+

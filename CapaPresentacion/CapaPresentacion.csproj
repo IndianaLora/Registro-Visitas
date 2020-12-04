@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D762E76E-ED3F-4506-A1C3-5784420F7EB7}</ProjectGuid>
+    <ProjectGuid>{84017A07-DEB3-457F-9E70-24F790FE712E}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>CapaPresentacion</RootNamespace>
     <AssemblyName>CapaPresentacion</AssemblyName>
@@ -34,7 +34,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
-    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -46,18 +45,46 @@
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
   </ItemGroup>
-  
+  <ItemGroup>
+    <Compile Include="ControlVisitas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlVisitas.Designer.cs">
+      <DependentUpon>ControlVisitas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimiento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimiento.Designer.cs">
+      <DependentUpon>Mantenimiento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="ControlVisitas.resx">
       <DependentUpon>ControlVisitas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimiento.resx">
+      <DependentUpon>Mantenimiento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="MostrarVisitas.resx">
-      <DependentUpon>MostrarVisitas.cs</DependentUpon>
-    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -67,78 +94,57 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+  </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CapaDatos\CapaDatos.csproj">
-      <Project>{47e285c1-c4db-46ef-97c5-a255970fe6e5}</Project>
-      <Name>CapaDatos</Name>
-    </ProjectReference>
+    <None Include="Resources\WhatsApp Image 2020-11-27 at 11.48.52 AM.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2020-11-27 at 11.39.03 AM.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UserIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\passwordIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\66630585-x-icono-de-cierre-x-botón-cerrar-el-sitio-web-en-el-fondo-blanco-.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot %28185%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\620.12-login-icon-iconbunny.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\system-users-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lock_Icon_FlatGreen.png" />
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\CapaNegocios\CapaNegocios.csproj">
       <Project>{02baaf8a-4b8f-4434-a7f6-eac712adf9cb}</Project>
       <Name>CapaNegocios</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\WhatsApp Image 2020-11-27 at 11.39.03 AM.jpeg" />
+    <None Include="Resources\download %283%291.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\cerrarIcon.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\cerrarIcon2.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\download %281%29.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\66630585-x-icono-de-cierre-x-botón-cerrar-el-sitio-web-en-el-fondo-blanco-.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\cerrarIcon1.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\download %282%29.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\UserIcon1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\passwordIcon.png" />
+    <None Include="Resources\download.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\passwordIcon1.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\66630585-x-icono-de-cierre-x-botón-cerrar-el-sitio-web-en-el-fondo-blanco-1.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\WhatsApp Image 2020-11-27 at 2.57.55 PM.jpeg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Screenshot %28185%29.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\6938878a73cecbd455d4d867a2489a6148e3370c.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\35894288_10155838323598406_7637234249300443136_n.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\itla-logo-full-2020.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Screenshot %28185%291.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\itla-logo-full-20201.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\66630585-x-icono-de-cierre-x-botón-cerrar-el-sitio-web-en-el-fondo-blanco-2.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\download %283%29.png" />
+    <None Include="Resources\UserIcon1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
