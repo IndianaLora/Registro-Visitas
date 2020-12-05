@@ -52,6 +52,8 @@
             this.label4 = new System.Windows.Forms.Label();
             this.txtApellido = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label10 = new System.Windows.Forms.Label();
             this.txtUsuario = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.txtTUsuario = new System.Windows.Forms.TextBox();
@@ -60,8 +62,8 @@
             this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.label10 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtCarrera = new System.Windows.Forms.TextBox();
+            this.label11 = new System.Windows.Forms.Label();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.panel4.SuspendLayout();
@@ -107,6 +109,8 @@
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.Teal;
+            this.panel4.Controls.Add(this.label11);
+            this.panel4.Controls.Add(this.txtCarrera);
             this.panel4.Controls.Add(this.btnLimpiar);
             this.panel4.Controls.Add(this.txtAula);
             this.panel4.Controls.Add(this.label7);
@@ -267,7 +271,7 @@
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(-3, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(607, 31);
+            this.label1.Size = new System.Drawing.Size(617, 31);
             this.label1.TabIndex = 10;
             this.label1.Text = "Agregar Usuario";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -351,11 +355,28 @@
             this.panel1.Controls.Add(this.dataGridView4);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.button2);
-            this.panel1.Location = new System.Drawing.Point(47, 69);
+            this.panel1.Location = new System.Drawing.Point(37, 69);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(604, 503);
+            this.panel1.Size = new System.Drawing.Size(614, 503);
             this.panel1.TabIndex = 4;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(479, 255);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(110, 22);
+            this.textBox1.TabIndex = 33;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label10.Location = new System.Drawing.Point(334, 256);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(139, 17);
+            this.label10.TabIndex = 32;
+            this.label10.Text = "Fecha de nacimiento";
             // 
             // txtUsuario
             // 
@@ -433,22 +454,23 @@
             this.button1.Text = "Editar";
             this.button1.UseVisualStyleBackColor = true;
             // 
-            // label10
+            // txtCarrera
             // 
-            this.label10.AutoSize = true;
-            this.label10.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label10.Location = new System.Drawing.Point(345, 255);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(118, 17);
-            this.label10.TabIndex = 32;
-            this.label10.Text = "Fecha de la visita";
+            this.txtCarrera.Location = new System.Drawing.Point(323, 134);
+            this.txtCarrera.Name = "txtCarrera";
+            this.txtCarrera.Size = new System.Drawing.Size(100, 22);
+            this.txtCarrera.TabIndex = 26;
             // 
-            // textBox1
+            // label11
             // 
-            this.textBox1.Location = new System.Drawing.Point(479, 255);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(110, 22);
-            this.textBox1.TabIndex = 33;
+            this.label11.AutoSize = true;
+            this.label11.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label11.Location = new System.Drawing.Point(353, 85);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(56, 17);
+            this.label11.TabIndex = 27;
+            this.label11.Text = "Carrera";
+            this.label11.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // Mantenimiento
             // 
@@ -510,5 +532,7 @@
         private System.Windows.Forms.MonthCalendar monthCalendar1;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.TextBox txtCarrera;
     }
 }

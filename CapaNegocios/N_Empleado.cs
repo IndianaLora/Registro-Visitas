@@ -42,14 +42,15 @@ namespace CapaNegocio
         {
             d_Empleado.Insertar(nombre, apellido, carrera, edificio, aula);
         }
-        public void insertarEdificio(string edificio, string aula)
+        public void insertarEdificio(string edificio, string aula, string carrera)
         {
-            d_Empleado.InsertarEdificio(edificio, aula);
+            d_Empleado.InsertarEdificio(edificio, aula,carrera);
         }
         public void insertarUsuario(string nombre, string apellido,string usuario, string tipoUsuario)
         {
             d_Empleado.InsertarUsuario(nombre, apellido, usuario,tipoUsuario);
         }
+       
 
         public void editarE(string edificio)
         {

@@ -13,9 +13,9 @@ namespace CapaPresentacion
 {
     public partial class Login : Form
     {
-        string usuario;
-        string password;
-        string Admin;
+        public static string usuario;
+        private string password;
+        
         public Login()
         {
             InitializeComponent();
@@ -32,17 +32,17 @@ namespace CapaPresentacion
             password = txtPassword.Text;
             if (usuario == "Indiana")
             {
-                MessageBox.Show("Bienvenido Administrador" +" "+usuario);
+                MessageBox.Show("Hola!"+usuario+" "+"Bienvenido Administrador");
                 Login login = new Login();
                 login.Close();
             }
-            else
+            if (usuario == "Keren" )
             {
-                MessageBox.Show("Usted no es Administrador");
+                MessageBox.Show("Hola!"+usuario+" "+"Bienvenido Usuario general");
                 Login login = new Login();
-                login.ShowDialog();
-                
+                login.Close();
             }
+           
         }
         private void button1_Click(object sender, EventArgs e)
         {

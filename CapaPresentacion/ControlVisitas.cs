@@ -9,9 +9,9 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using CapaNegocio;
 
-namespace CapaPresentacion
+namespace CapaPresentacion 
 {
-    public partial class ControlVisitas : Form
+    public partial class ControlVisitas : Form 
     {
         N_Empleado n_Empleado = new N_Empleado();
         public ControlVisitas()
@@ -30,9 +30,16 @@ namespace CapaPresentacion
            
         }
         private void button2_Click(object sender, EventArgs e)
-        {
-            Mantenimiento mantenimiento = new Mantenimiento();
-            mantenimiento.ShowDialog();
+        {           
+           if (Login.usuario !="Indiana")
+              {
+                  MessageBox.Show("Usted no es Administrador no puede acceder a esa parte");
+              }
+              else
+              {
+                  Mantenimiento mantenimiento = new Mantenimiento();
+                  mantenimiento.ShowDialog();
+              }
         }
 
         private void ControlVisitas_Load(object sender, EventArgs e)

@@ -69,10 +69,10 @@ namespace CapaDatos
             comando.CommandType = CommandType.Text;
             comando.ExecuteNonQuery();
         }
-        public void InsertarEdificio(string edificio, string aula)
+        public void InsertarEdificio(string edificio, string aula , string carrera)
         {
             comando.Connection = conexion.AbrirConexion();
-            comando.CommandText = ($"Insert into edificios (edificio,aula) values('{edificio}','{aula}')");
+            comando.CommandText = ($"Insert into edificios (edificio,aula,carrera) values('{edificio}','{aula}','{carrera}')");
             comando.CommandType = CommandType.Text;
             comando.ExecuteNonQuery();
             comando.Connection = conexion.CerrarConexion();

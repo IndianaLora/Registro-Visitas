@@ -29,8 +29,8 @@ namespace CapaPresentacion
             if (Editar==false) {
                 try
                 {
-                    n_Empleado.insertarEdificio(txtEdificio.Text, txtAula.Text);
-                    MessageBox.Show("Edificio agregado");
+                    n_Empleado.insertarEdificio(txtEdificio.Text, txtAula.Text,txtCarrera.Text);
+                    MessageBox.Show("Agregado");
                     MostrarEdificios();
                 }
                 catch (Exception ex)
